@@ -115,3 +115,9 @@ h1 > .link-title:hover {
 	color: lightgray;
 	border-radius: 0px;	
 }
+
+.excerpt, .excerpt a {
+  color: darkgray;
+  font-style: italic;
+  font-size: 12px;
+}
