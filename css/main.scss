@@ -123,6 +123,8 @@ h1 > .link-title:hover {
   width: 600px;
 }
 
+
+
 .container img {
   margin-left: auto;
   margin-right: auto;
@@ -133,4 +135,10 @@ h1 > .link-title:hover {
     filter: url(#drop-shadow);
     -ms-filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
+}
+
+.profile {
+  float: left;
+  width: 100px;
+  filter: none;
 }
