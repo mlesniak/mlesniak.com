@@ -62,8 +62,12 @@ body {
   margin-bottom: 60px;
 }
 
-pre, .highlighter-rouge .highlight {
+pre, .code, .highlighter-rouge .highlight {
 	background-color: #f2f2f2;
+}
+
+code {
+ background-color: #f2f2f2;
 }
 
 .footer {
