@@ -1,9 +1,8 @@
-<h1 class="entry-title">
-{% if page.title %}
-    <a href="{{ root_url }}{{ page.url }}">{{ page.title }}</a>
-{% endif %}
+<!-- <h1> -->
+
+
 {% if post.title %}
-    <a href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+    <h1><a class="link-title" href="{{ root_url }}{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="post-meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%Y-%m-%d" }}</time>
 {% endif %}
-</h1>
 <div class="entry-content">{{ content }}</div>

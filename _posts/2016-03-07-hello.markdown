@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Hello, world!"
+title:  Hello, world, 2!
 date:   2016-03-06 00:40:49 +0100
-categories: english
+categories: 
 ---
 
 
