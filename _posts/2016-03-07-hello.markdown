@@ -6,3 +6,7 @@ categories:
 ---
 
 This blog post restarts my homepage, more content follows soon.
+
+To ease the waiting, here is a picture of a dog pondering about complex source code...
+
+![](/assets/dog.jpg)
