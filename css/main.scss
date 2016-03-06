@@ -52,8 +52,14 @@ $on-laptop:        800px;
         "syntax-highlighting"
 ;
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   padding-top: 70px;
+  margin-bottom: 60px;
 }
 
 pre, .highlighter-rouge .highlight {
