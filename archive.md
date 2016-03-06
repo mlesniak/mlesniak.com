@@ -11,7 +11,7 @@ permalink: /archive/
       	<a class="" href="{{ post.url | prepend: site.baseurl }}">	
       		{{ post.title }}
       	</a>
-         <span class="excerpt"> {{ post.excerpt }} </span>
+         <div class="excerpt"> {{ post.excerpt }} </div>
       </li>
     {% endfor %}
   </ul>
