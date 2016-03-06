@@ -4,7 +4,8 @@ layout: default
 
 
   {% assign post = site.posts.first %}
-  {% assign content = post.content %}  
+  {% assign content = post.content %}
+  {% assign previous = post.previous %}  
   {% include post_detail.html %}
 
 
