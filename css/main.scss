@@ -127,6 +127,13 @@ h1 > .link-title:hover {
   width: 600px;
 }
 
+@media (max-device-width: 600px) {
+  .excerpt {
+    width: 100%;
+  }
+}
+
+
 
 
 .container img {
