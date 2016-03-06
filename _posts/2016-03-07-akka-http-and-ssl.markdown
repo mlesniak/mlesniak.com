@@ -39,7 +39,7 @@ object Boot extends App {
 
 We can test our server with the awesome CLI utility [httpie](https://github.com/jkbrzt/httpie) with
 
-	$ http --verify no https://localhost:8080/api/version
+	$ http --verify no https://localhost:8443/api/version
 
 	HTTP/1.1 200 OK
 	Content-Length: 62
